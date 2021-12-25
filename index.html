@@ -20,12 +20,37 @@
   </header>
 
   <div id="top">
-    <h1>Shyraily Shymkent</h1>
+    <!-- <a class="join" href="#">Shyraily Shymkent</a> </a> -->
+    <button style="height: 300px; width: 300px; margin-top: 300px;"  id="te">Shyraily Shymkent</buttin>
+  
   </div>
+
+
+  <button id="toBlue">Blue</button>
+    <button id="toGreen">Green</button>
+    <button id="toRed">Red</button>
+    <script>
+
+        document.getElementById("toBlue").onclick = function () {
+            document.getElementById("te").style.color = 'blue';
+            document.getElementById("te").style.textDecoration = 'underline';
+        }
+
+        document.getElementById("toGreen").onclick = function () {
+            document.getElementById("te").style.color = 'green';
+            document.getElementById("te").style.textDecoration = 'underline';
+        }
+
+        document.getElementById("toRed").onclick = function () {
+            document.getElementById("te").style.color = '#FF0000';
+            document.getElementById("te").style.textDecoration = 'underline';
+        }
+
+    </script>
 
   <div id="main">
     <div class="intro">
-      <h2>Shymkent City, Kazakhstan (Chimkent)</h2>
+      <h2>Shymkent C  ity, Kazakhstan (Chimkent)</h2>
       <span>City of South Kazakhstan region</span>
 
       <span>Shymkent phone code - +7 7252; postal code - 160000</span>
